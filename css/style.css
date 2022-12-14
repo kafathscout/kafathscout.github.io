@@ -1,0 +1,71 @@
+.jumbotron {
+  background-image: url(bg1.jpg);
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+}
+.jumbotron .display-4 {
+  color: white;
+  margin-top: 150px;
+}
+.jumbotron p {
+  color: white;
+  font-size: 20px;
+}
+.jumbotron hr {
+  border-color: #f05f40;
+  width: 200px;
+  border-width: 3px;
+}
+.container .mata {
+  font-size: 50px;
+}
+.container .card-title {
+  font-size: 30px;
+}
+.container .card-text {
+  font-size: 20px;
+}
+
+.container .btn {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .jumbotron {
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+  }
+  .jumbotron p {
+    font-size: 10px;
+  }
+  .jumbotron .display-4 {
+    font-size: 15px;
+    margin-top: 70px;
+  }
+  .jumbotron hr {
+    border-color: #f05f40;
+    width: 50px;
+    border-width: 3px;
+  }
+  .container .mata {
+    font-size: 15px;
+  }
+  .container .card-title {
+    font-size: 12px;
+  }
+  .container .card-text {
+    font-size: 10px;
+  }
+  .container .btn {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .jumbotron p {
+    font-size: 7px;
+  }
+}
